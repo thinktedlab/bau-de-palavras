@@ -1,49 +1,53 @@
 import os
 import re
 
-
-ROOT_PATH = '../palavras-cruas/'
-
-
-def junta_files_palavras_polissilabas():
-    path = os.path.join(ROOT_PATH, 'juntas/polissilabas')
-    for item in os.listdir(path):
-        print(item)
+from pprint import pprint
 
 
-def junta_files_palavras_trissilabas():
-    path = os.path.join(ROOT_PATH, 'juntas/trissilabas')
-    for item in os.listdir(path):
-        print(item)
+CAMINHO_RAIZ_LEITURA = '../palavras-cruas/'
+CAMINHO_RAIZ_ESCRITA = '../palavras-tratadas/'
+PASTA_JUNTAS = 'juntas'
+
+    
+def junta_palavras_juntas():
+    palavras_agrupadas = {}
+    caminho_classificacoes = os.path.join(CAMINHO_RAIZ_LEITURA, PASTA_JUNTAS)
+    for classificacao in os.listdir(caminho_classificacoes):
+        palavras_agrupadas[classificacao] = []
+        print(f'Juntando arquivos com palavras {classificacao}...')
+        caminho_classificacao = os.path.join(caminho_classificacoes, classificacao)
+        for arquivo in os.listdir(caminho_classificacao):
+            if not arquivo.startswith('.'):
+                caminho_arquivo = os.path.join(caminho_classificacao, arquivo)
+                print(f'{classificacao}, arquivo: {caminho_arquivo}')
+                with open(caminho_arquivo, 'r') as fl:
+                    for palavra in fl.readlines():
+                        if palavra not in palavras_agrupadas[classificacao]:
+                            palavras_agrupadas[classificacao].append(palavra)
+    return palavras_agrupadas
 
 
-def junta_files_palavras_dissilabas():
-    path = os.path.join(ROOT_PATH, 'juntas/dissilabas')
-    for item in os.listdir(path):
-        print(item)
+def salva_palavras(palavras_dict):
+    todas_as_palavras = []
+    for classificacao, palavras in palavras_dict.items():
+        print(f'Salvando palavras {classificacao}...')
+        nome_arquivo = f'{classificacao.upper()}-{len(palavras)}.txt'
+        nome_arquivo = os.path.join(CAMINHO_RAIZ_ESCRITA, nome_arquivo)
+        todas_as_palavras += palavras
+        with open(nome_arquivo, 'w') as fl:
+            for palavra in palavras:
+                fl.write(palavra)
 
-
-def junta_files_palavras_monossilabas():
-    monossilabas = []
-    path = os.path.join(ROOT_PATH, 'juntas/monossilabas')
-    print('Juntando arquivos com palavras monossilabas...')
-    for item in os.listdir(path):
-        print(f'Monossilabas, file: {item}')
-        if not item.startswith('.'):
-            file_path = os.path.join(path, item)
-            with open(file_path, 'r') as fl:
-                for palavra in fl.readlines():
-                    monossilabas.append(palavra.replace('\n', ''))
-    print('Junção de arquivos de palavras monossilabas concluido')
-    return monossilabas
-        
+    nome_arquivo = f'PALAVRAS-{len(todas_as_palavras)}.txt'
+    nome_arquivo = os.path.join(CAMINHO_RAIZ_ESCRITA, nome_arquivo)
+    with open(nome_arquivo, 'w') as fl:
+        for palavra in todas_as_palavras:
+            fl.write(palavra)
 
 
 def main():
-    junta_files_palavras_monossilabas()
-    junta_files_palavras_dissilabas()
-    junta_files_palavras_trissilabas()
-    junta_files_palavras_polissilabas()
+    palavras = junta_palavras_juntas()
+    salva_palavras(palavras)
 
 
 if __name__ == "__main__":
