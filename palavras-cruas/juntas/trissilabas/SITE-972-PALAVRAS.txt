@@ -16,7 +16,6 @@ caráter
 presunção
 concepção
 sublime
-néscio
 pêsames
 índole
 extensão
@@ -59,7 +58,6 @@ exortar
 remissão
 cordial
 rechaçar
-mútua
 mórbido
 trivial
 despeito
@@ -103,7 +101,6 @@ inato
 almejar
 supressão
 constante
-tênue
 instigar
 restringir
 contemplar
@@ -116,7 +113,6 @@ cético
 discorrer
 gratidão
 dádiva
-sóbrio
 ademais
 expressão
 obstante
@@ -147,7 +143,6 @@ apreço
 alcunha
 conciso
 problema
-boceta
 solene
 limiar
 lábaro
@@ -158,7 +153,6 @@ salutar
 ambição
 versátil
 contenda
-molestar
 ensejo
 eficaz
 imersão
@@ -178,7 +172,6 @@ incrível
 escusa
 redenção
 auferir
-estrupo
 vertente
 enxergar
 dimensão
@@ -227,19 +220,16 @@ mancebo
 assento
 bizarro
 sentido
-caralho
 ilação
 isento
 intuito
 contenção
-safado
 promover
 égide
 suprimir
 acento
 íntegro
 lascivo
-larica
 deleitar
 provisão
 preciso
@@ -253,7 +243,6 @@ eximir
 nuance
 ignóbil
 distinguir
-sisudo
 escasso
 definir
 conhecer
@@ -261,7 +250,6 @@ objeto
 afeição
 receio
 olvidar
-escroto
 acesso
 ninfeta
 tangível
@@ -333,7 +321,6 @@ conduta
 intriga
 chacota
 insano
-ânsia
 descrever
 trabalho
 doutrina
@@ -413,7 +400,6 @@ progresso
 clérigo
 estranho
 incorrer
-caramba
 lícito
 impasse
 infligir
@@ -454,7 +440,6 @@ adepto
 melindre
 reportar
 prezado
-vício
 ancestral
 emissão
 prática
@@ -503,7 +488,6 @@ esboço
 subversão
 infringir
 método
-bastardo
 sofisma
 tirano
 inibir
@@ -554,7 +538,6 @@ preletor
 esbelto
 incidir
 alarde
-orgia
 afago
 passiva
 limite
@@ -637,7 +620,6 @@ informar
 reaça
 conosco
 detrator
-óbvio
 devido
 promissor
 partilhar
@@ -669,7 +651,6 @@ piegas
 torpeza
 havia
 comissão
-vosmecê
 séquito
 humilde
 lástima
@@ -682,8 +663,6 @@ incesto
 estorno
 exíguo
 estado
-imbecil
-excitar
 alcançar
 desfrutar
 sistema
@@ -703,7 +682,6 @@ comprazo
 acaso
 desvelar
 benigno
-patife
 parabéns
 crucial
 extinto
@@ -712,17 +690,14 @@ fizesse
 adstrito
 cônscio
 propenso
-mágoa
 pessoa
 patroa
 soslaio
-tédio
 fálico
 sensação
 prospecção
 inclusão
 endossar
-desposar
 conluio
 matilha
 instruir
@@ -816,7 +791,6 @@ aduzir
 prosperar
 discurso
 responder
-charlatão
 adquirir
 amanhã
 falange
@@ -852,7 +826,6 @@ marasmo
 sujeitar
 oblação
 surreal
-deficit
 retração
 ousado
 beldade
@@ -861,7 +834,6 @@ encontrar
 resguardar
 ilidir
 permuta
-sedição
 corrigir
 querela
 estéril
