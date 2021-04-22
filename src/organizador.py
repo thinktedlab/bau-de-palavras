@@ -1,5 +1,7 @@
 import os
+import shutil
 
+from datetime import datetime
 from pprint import pprint
 
 
@@ -68,7 +70,7 @@ def salva_palavras(palavras_dict):
 
     nome_arquivo = f'PALAVRAS-{len(todas_as_palavras)}.txt'
     nome_arquivo = os.path.join(CAMINHO_RAIZ_ESCRITA, nome_arquivo)
-    print(f'Salvando totas as palavras em {nome_arquivo}')
+    print(f'Salvando totas as palavras em {nome_arquivo}\n')
     with open(nome_arquivo, 'w', encoding='utf-8') as fl:
         for palavra in todas_as_palavras:
             fl.write(palavra)
@@ -78,6 +80,7 @@ def remove_arquivos_palavras():
         os.remove(os.path.join(CAMINHO_RAIZ_ESCRITA, arquivo))
 
 def main():
+    print(f'\t\t\t{datetime.now().strftime("%A %d. %B %Y %H:%M:%S")}\n')
     junta_palavras_juntas()
     junta_palavras_separadas()
     print(f'\nTotal de palavras MONOSSILABAS: {len(palavras_agrupadas[MONOSSILABAS])}')
