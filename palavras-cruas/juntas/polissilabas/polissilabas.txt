@@ -26,7 +26,6 @@ contemporâneo
 idôneo
 idílico
 remanescente
-genocida
 retificar
 detrimento
 análogo
@@ -58,7 +57,6 @@ inconveniente
 referência
 ratificar
 propósito
-misógino
 contundente
 inócuo
 condescendência
@@ -75,7 +73,6 @@ empírico
 procrastinar
 indulgente
 compreensão
-ninfomaníaca
 pandemia
 ardiloso
 intrinsecamente
@@ -87,14 +84,12 @@ idiossincrasia
 apático
 sororidade
 prepotente
-sagacidade
 prodígio
 deliberar
 independente
 persuadir
 pragmático
 auspicioso
-concupiscência
 astúcia
 expectativa
 devaneio
@@ -117,7 +112,6 @@ utopia
 beneplácito
 determinação
 subterfúgio
-lascívia
 eminência
 subestimar
 inóspito
@@ -129,7 +123,6 @@ monótono
 analogia
 impetuoso
 ativista
-iniquidade
 indiferente
 discernimento
 precedente
@@ -186,16 +179,13 @@ inenarrável
 proeminente
 entretanto
 critério
-talarico
 perfídia
-idiota
 concernente
 anacrônico
 superficial
 indolência
 fidedigno
 animosidade
-escárnio
 intensidade
 ingerência
 anátema
@@ -219,7 +209,6 @@ incumbência
 resolução
 excelência
 compassivo
-promiscuidade
 experiência
 compartilhar
 sanidade
@@ -228,8 +217,6 @@ solícito
 expedido
 paradoxo
 ordinário
-rapariga
-luxúria
 insípido
 execrável
 inefável
@@ -264,7 +251,6 @@ imanente
 iminência
 irascível
 importante
-otário
 consideração
 convergência
 subjetivo
@@ -382,7 +368,6 @@ veemente
 erudito
 morosidade
 arraigado
-vagabunda
 pusilânime
 primícias
 relevância
@@ -476,7 +461,6 @@ arrojado
 proselitismo
 coincidência
 espúrio
-ridículo
 extasiado
 generalizar
 reverberar
@@ -488,9 +472,7 @@ integridade
 influência
 ressentimento
 alienação
-miserável
 verborragia
-desgraçado
 enigmático
 posterior
 efeminado
@@ -535,7 +517,6 @@ atemporal
 supremacia
 excepcional
 sistemático
-heterossexual
 facultativo
 atribuição
 diferente
@@ -562,7 +543,6 @@ execução
 todavia
 deturpado
 homogêneo
-extremista
 incongruência
 intempestivo
 solidário
@@ -590,7 +570,6 @@ conformidade
 desafio
 ponderado
 consecutivo
-libertinagem
 insalubre
 substancial
 antagônico
@@ -625,7 +604,6 @@ prelúdio
 especial
 desídia
 aparato
-escarnecer
 melancólico
 celeridade
 retificação
@@ -636,7 +614,6 @@ hipótese
 perecível
 desprezível
 convergente
-masoquista
 imbuído
 enfatizar
 apanágio
@@ -687,7 +664,6 @@ minucioso
 solitude
 possibilidade
 despótico
-petulância
 aprimorar
 irredutível
 apascentar
@@ -813,7 +789,6 @@ refúgio
 condizente
 refratário
 indignado
-hodierno
 hodiernamente
 compactuar
 singularidade
@@ -855,7 +830,6 @@ conotação
 hierarquia
 inclusive
 intimista
-mercenário
 honestidade
 conjectura
 patriarca
@@ -876,7 +850,6 @@ reivindicação
 instabilidade
 elegibilidade
 conceitual
-sorumbático
 evasivo
 insensível
 segregação
@@ -893,10 +866,8 @@ confluência
 remediar
 cidadania
 preterido
-maquiavélico
 consistente
 atencioso
-apóstata
 oportuno
 enclausurado
 sabedoria
@@ -969,7 +940,6 @@ genioso
 tolerância
 hedonismo
 recalcitrante
-esbórnia
 solicitar
 importunar
 possessivo
