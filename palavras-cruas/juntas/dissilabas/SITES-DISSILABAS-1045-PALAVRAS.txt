@@ -84,7 +84,6 @@ vida
 apto
 suma
 buscar
-crer
 prole
 digno
 genro
@@ -204,7 +203,6 @@ clamar
 ordem
 cujo
 cedo
-trás
 feição
 pleno
 banal
@@ -230,7 +228,6 @@ forma
 sela
 temer
 quinhão
-mais
 devir
 deixar
 cunho
@@ -246,7 +243,6 @@ práxis
 trouxa
 meiga
 vulgo
-traz
 prisma
 coisa
 platô
@@ -450,8 +446,6 @@ leigo
 isso
 lume
 legal
-pois
-
 fito
 terno
 seio
