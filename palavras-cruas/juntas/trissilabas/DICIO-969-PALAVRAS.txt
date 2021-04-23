@@ -370,7 +370,6 @@ discreto
 faceta
 danado
 informal
-área
 lúgubre
 obsceno
 consenso
@@ -734,7 +733,6 @@ estrato
 despertar
 esnobe
 abranger
-ócio
 expensas
 óbito
 rescindir
