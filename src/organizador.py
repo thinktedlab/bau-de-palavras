@@ -42,7 +42,7 @@ def junta_palavras_separadas():
     for arquivo_nome in os.listdir(caminho_arquivos):
         caminho_arquivo = os.path.join(caminho_arquivos, arquivo_nome)
         print(f'Lendo arquivo {caminho_arquivo}')
-        with open(caminho_arquivo, 'r') as arquivo:
+        with open(caminho_arquivo, 'r', encoding='utf-8') as arquivo:
             for palavra in arquivo.readlines():
                 if(palavra != '\n'):
                     quantidade_tracos = palavra.count('-')
