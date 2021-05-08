@@ -67,7 +67,6 @@ def salva_palavras(palavras_dict):
         with open(nome_arquivo, 'w', encoding='utf-8') as fl:
             for palavra in palavras:
                 fl.write(palavra)
-
     nome_arquivo = f'PALAVRAS-{len(todas_as_palavras)}.txt'
     nome_arquivo = os.path.join(CAMINHO_RAIZ_ESCRITA, nome_arquivo)
     print(f'Salvando totas as palavras em {nome_arquivo}\n')
@@ -75,9 +74,11 @@ def salva_palavras(palavras_dict):
         for palavra in todas_as_palavras:
             fl.write(palavra)
 
+
 def remove_arquivos_palavras():
     for arquivo in os.listdir(CAMINHO_RAIZ_ESCRITA):
         os.remove(os.path.join(CAMINHO_RAIZ_ESCRITA, arquivo))
+
 
 def main():
     print(f'\t\t\t{datetime.now().strftime("%A %d. %B %Y %H:%M:%S")}\n')
@@ -89,7 +90,6 @@ def main():
     print(f'Total de palavras POLISSILABAS: {len(palavras_agrupadas[POLISSILABAS])}\n')
     remove_arquivos_palavras()
     salva_palavras(palavras_agrupadas)
-    # pprint(palavras_agrupadas)
 
 
 if __name__ == '__main__':
